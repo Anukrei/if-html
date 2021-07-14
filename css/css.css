@@ -1,0 +1,105 @@
+.container-body{
+	position: relative;
+	width: 1140x;
+	height: 569px;
+}
+.headline{
+	position:relative;
+	height: 47px;
+	width: 306px;
+	top: 120px;
+	margin: 0px auto;
+	font-family:Roboto, sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 47px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.line{
+	position:relative;
+	height: 4px;
+	width: 100px;
+	top: 130px;
+	margin: 0px auto;
+}
+.container{
+	position: relative;
+	float:left;
+	top: 271px;
+	left: 160px;
+	margin: 0px auto;
+	text-align: center;
+}
+.support{
+	position: relative;
+	float:left;
+	width:296px;
+	height:176px;
+	text-align: bottom;
+	margin-right:15px;
+}
+.communication{
+	float:left;
+	width:296px;
+	height:178px;
+	left: 416px;
+	top: 1600px;
+}
+.booking{
+	float:left;
+	width:296px;
+	height:184px;
+	left: 728px;
+	top:1171px;
+	margin:0px 15px;
+}
+.reviews{
+	float:left;
+	width:296px;
+	height:183px;
+	left: 1041px;
+	top: 1171px;
+}
+.content-support{
+	position: relative;
+	top: 42px;
+}
+.content-communication{
+	position: relative;
+	top: 50px;
+}
+.content-booking{
+	position: relative;
+	top: 67px;
+}
+.content-review{
+	position: relative;
+	top: 53px;
+}
+.content-support,.content-communication,.content-booking,.content-review{
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+}
+#svg-support{
+	position: relative;
+	top:10px;
+}
+#svg-communication{
+	position: relative;
+	top:10px;
+
+}
+#svg-booking{
+	position: relative;
+	top: 15px;
+}
+#svg-review{
+	position: relative;
+	top: 2px;
+}
