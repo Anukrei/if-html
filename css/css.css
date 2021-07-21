@@ -23,7 +23,7 @@
 		  url('../fonts/roboto-v27-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
 		  url('../fonts/roboto-v27-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
  }
- /*icon font */
+ 
  @font-face {
 	font-family: 'icomoon';
 	src:  url('../fonts/icomoon.eot?l5ztia');
@@ -50,7 +50,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
  }
-
+ 
  .icon-AccountCircle:before {
 	content: "\e900";
 	color: #fff;
@@ -59,6 +59,7 @@
 	content: "\e901";
 	color: #fff;
  }
+
  /*header*/
 .header{
 	width: 100%;
@@ -66,7 +67,7 @@
 	justify-content: space-between;
 	line-height: 5px;
 	}
-	/*navigationт*/
+	/*navigation*/
 	.navigation{
 	display: inline-flex;
 	align-items:center;
@@ -198,7 +199,6 @@
 	justify-content: center;
 	margin-top: 5%;
 	}
- 
 /*service block-start  */
 .parents-containers{
 	text-align: center;
