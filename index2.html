@@ -11,19 +11,27 @@
 </head>
 
 <body>
-	<!--//heaedr-->
+
+	<!--//headedr-->
 	<div class="container_body">
 		<header class="header">
 			<div class="header__inner">
-				<img src="img/logo_vector.svg" alt="logotip">
+				<svg class="futerSVG">
+					<use xlink:href="sprite.svg#futer"></use>
+				</svg>
 			</div>
 			<nav class="navigation">
 				<a href="#" class="nav__link">Stays</a>
 				<a href="#" class="nav__link"> Attractions </a>
-				<a href="#" class="nav__link"> <i class="icon-Night" alt="Night"></i></a>
-				<a href="#" class="nav__link" id="link"><i class="icon-AccountCircle" alt="AccountCircle"></i></a>
+				<a href="#" class="nav__link"> <svg class="NightSVG">
+						<use xlink:href="sprite.svg#Night-svg"></use>
+					</svg></a>
+				<a href="#" class="nav__link"> <svg class="CircleSVG">
+						<use xlink:href="sprite.svg#Circle-svg"></use>
+					</svg></a>
 			</nav>
 		</header>
+
 		<!--//input form -->
 		<form action="#" metod="get">
 			<!--//Common form container  -->
@@ -49,109 +57,120 @@
 				</div>
 				<!--//google and apple icons-->
 				<div class="icon_footer">
-					<img src="img/google-play-badge.svg" alt="Google Play">
-					<img src="img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917 1.svg" alt="App Store">
+					<a href="#"><svg class="google">
+							<use xlink:href="sprite.svg#google-svg"></use>
+						</svg> </a>
+					<a href="#"><svg class="AppleSVG">
+							<use xlink:href="sprite.svg#Apple-Store-svg"></use>
+						</svg> </a>
 				</div>
 			</div>
 		</form>
 	</div>
 
 
-	<div class="parents-containers">
-		<div class="pro">
-			<h1 class="title-text">
-				What do we offer
-			</h1>
-		</div>
-		<div class="scroll">
-			<img src="img/Stroke.png" alt="scroll content">
-		</div>
-		<div class="container">
-			<div class="box-support">
-				<div class="img-support">
-					<img src="img/Vector1.svg" alt="support">
-				</div>
-				<p class="text-container">
-					Support 24/7
-				</p>
-			</div>
-			<div class="box-communication">
-				<div class="img-communication">
-					<img src="img/Vector2.svg" alt="communication">
-				</div>
-				<p class="text-container">
-					Communicate directly
-				</p>
-			</div>
-			<div class="box-book">
-				<div class="img-book">
-					<img src="img/Vector3.svg" alt="book-online">
 
-				</div>
-				<p class="text-container"></p>
-				Book online
+	<h1 class="title-text">
+		What do we offer
+	</h1>
+	<div class="scroll">
+		<img src="img/Stroke.png" alt="scroll content">
+	</div>
+
+	<div class="container">
+		<div class="box-support">
+			<div class="img-support">
+				<svg class="SVG1">
+					<use xlink:href="sprite.svg#SVG1"></use>
+				</svg>
 			</div>
-			<div class="box-reviews">
-				<div class="img-reviews">
-					<img src="img/Vector4.svg" alt="Real-guest-reviews">
+			<p class="text-container">
+				Support 24/7
+			</p>
+		</div>
+		<div class="box-communication">
+			<div class="img-communication">
+				<svg class="SVG2" class="gg">
+					<use xlink:href="sprite.svg#SVG2"></use>
+				</svg>
+			</div>
+			<p class="text-container">
+				Communicate directly
+			</p>
+		</div>
+		<div class="box-book">
+			<div class="img-book">
+				<svg class="SVG3">
+					<use xlink:href="sprite.svg#SVG3"></use>
+				</svg>
+
+			</div>
+			<p class="text-container">
+				Book online
+			</p>
+
+		</div>
+		<div class="box-reviews">
+			<div class="img-reviews">
+				<svg class="SVG4">
+					<use xlink:href="sprite.svg#SVG4"></use>
+				</svg>
+			</div>
+			<p class="text-container">
+				Real guest reviews
+			</p>
+		</div>
+	</div>
+
+	<!--//choice of places of rest-сontainer-->
+	<h1 class="title-h1">Homes guests loves</h1>
+	<div class="content-box">
+
+		<div class="info-images">
+			<div class="images">
+				<div class="img">
+					<img src="img/Rectangle 48.png" alt="Hotel Leopold">
 				</div>
-				<p class="text-container">
-					Real guest reviews
-				</p>
+				<div class="hotel-images">
+					<p class="text-info">Hotel Leopold</p>
+					<p class="text-infof">Saint Petersburg, Russia</p>
+				</div>
+			</div>
+		</div>
+		<div class="info-images">
+			<div class="images">
+				<div class="img">
+					<img src="img/Rectangle 49.png" alt="Apartment Sunshine">
+				</div>
+				<div class="hotel-images">
+					<p class="text-info">Apartment Sunshine</p>
+					<p class="text-infof">Santa Cruz de Tenerife, Spain</p>
+				</div>
+			</div>
+		</div>
+		<div class="info-images">
+			<div class="images">
+				<div class="img">
+					<img src="img/Rectangle 50.png" alt="Vysokie Tatry, Slowakia">
+				</div>
+				<div class="hotel-images">
+					<p class="text-info">Villa Kunerad</p>
+					<p class="text-infof">Vysokie Tatry, Slowakia</p>
+				</div>
+			</div>
+		</div>
+		<div class="info-images">
+			<div class="images">
+				<div class="img">
+					<img src="img/Rectangle 51.png" alt="Saint Petersburg, Russia">
+				</div>
+				<div class="hotel-images">
+					<p class="text-info">Hotel Leopold</p>
+					<p class="text-infof">Saint Petersburg, Russia</p>
+				</div>
 			</div>
 		</div>
 	</div>
-	<!--//choice of places of rest-сontainer-->
-	<div class="container-info">
-		<div class="h1">
-			<h1 class="title-h1">Homes guests loves</h1>
-		</div>
-		<div class="content-box">
-			<div class="info-images">
-				<div class="images">
-					<div class="img">
-						<img src="img/Rectangle 48.png" alt="Hotel Leopold">
-					</div>
-					<div class="hotel-images">
-						<p class="text-info">Hotel Leopold</p>
-						<p class="text-infof">Saint Petersburg, Russia</p>
-					</div>
-				</div>
-			</div>
-			<div class="info-images">
-				<div class="images">
-					<div class="img">
-						<img src="img/Rectangle 49.png" alt="Apartment Sunshine">
-					</div>
-					<div class="hotel-images">
-						<p class="text-info">Apartment Sunshine</p>
-						<p class="text-infof">Santa Cruz de Tenerife, Spain</p>
-					</div>
-				</div>
-			</div>
-			<div class="info-images">
-				<div class="images">
-					<div class="img">
-						<img src="img/Rectangle 50.png" alt="Vysokie Tatry, Slowakia">
-					</div>
-					<div class="hotel-images">
-						<p class="text-info">Villa Kunerad</p>
-						<p class="text-infof">Vysokie Tatry, Slowakia</p>
-					</div>
-				</div>
-			</div>
-			<div class="info-images">
-				<div class="images">
-					<div class="img">
-						<img src="img/Rectangle 51.png" alt="Saint Petersburg, Russia">
-					</div>
-					<div class="hotel-images">
-						<p class="text-info">Hotel Leopold</p>
-						<p class="text-infof">Saint Petersburg, Russia</p>
-					</div>
-				</div>
-			</div>
-		</div>
 	</div>
 	<!--//cdestinations-start-->
 	<div class="destinations-container">
@@ -198,34 +217,44 @@
 	<!--//footer-->
 	<footer>
 		<div class="podwall">
-			<div class="container-footer">
-				<ul class="list">
-					<li>About</li>
-					<li>How Triphouse works</li>
-					<li>Careers</li>
-					<li>Privacy</li>
-					<li>Terms</li>
 
+			<svg class="futerSVG12">
+				<use xlink:href="sprite.svg#futer" class="cn"></use>
+			</svg>
+			<div class="container-footer">
+
+				<ul class="list">
+					<a href="#" class="yes">
+						About
+					</a>
+					<li class="non">How Triphouse works</li>
+					<li class="non">Careers</li>
+					<li class="non">Privacy</li>
+					<li class="non">Terms</li>
+				</ul>
+
+				<ul class="list">
+					<a href="#" class="yes">
+						Property types
+					</a>
+					<li class="non">Guest houses</li>
+					<li class="non">Hotels</li>
+					<li class="non">Apartments</li>
+					<li class="non">Villas</li>
+					<li class="non">Holiday homes</li>
+					<li class="non">Hostels</li>
 				</ul>
 				<ul class="list">
-					<li>Property types</li>
-					<li>Guest houses</li>
-					<li>Hotels</li>
-					<li>Apartments</li>
-					<li>Villas</li>
-					<li>Holiday homes</li>
-					<li>Hostels</li>
-				</ul>
-				<ul class="list">
-					<li>Support</li>
-					<li>Contact Customer Service</li>
-					<li>FAQ</li>
+					<a href="#" class="yes">
+						Support
+					</a>
+					<li class="non">Contact Customer Service</li>
+					<li class="non">FAQ</li>
 				</ul>
 			</div>
-			<p class="copy-string">&#169 2020 Triphouse, Inc. All rights reserved</p>
+			<p class="copy-string">&#169 2020 Triphouse , Inc. All rights reserved</p>
 		</div>
 	</footer>
-
 
 </body>
 
