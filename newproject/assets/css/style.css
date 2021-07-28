@@ -1,0 +1,181 @@
+/* roboto-regular - latin (text- word */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/roboto-v27-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		  url('/fonts/roboto-v27-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		  url('/fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		  url('/fonts/roboto-v27-latin-regular.woff') format('woff'), /* Modern Browsers */
+		  url('/fonts/roboto-v27-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		  url('/fonts/roboto-v27-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+ }
+ @font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/roboto-v27-latin-500.eot'); /* IE9 Compat Modes */
+	src: local(''),
+		  url('/fonts/roboto-v27-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		  url('/fonts/roboto-v27-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+		  url('/fonts/roboto-v27-latin-500.woff') format('woff'), /* Modern Browsers */
+		  url('/fonts/roboto-v27-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+		  url('/fonts/roboto-v27-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+ }
+body{
+	padding: 0 107px;
+	
+}
+/*used headers*/ 
+h1,h2, h3{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 56px;
+	line-height: 66px;
+	margin: 0;
+}
+
+h2{
+	color: #BEBEBE;
+ }
+
+h3{
+	text-align: center;
+	margin: auto;
+	padding-top: 5%;
+}
+/*navigation bar styles header*/ 
+.navigation{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	border-bottom:1px solid black ;
+	padding: 30px 0px;
+}
+.navigation_item {
+	text-decoration: none;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #3D3B3C;
+}
+.navigation a:first-child{
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+	text-align: left;
+	text-decoration:line-through;
+}
+/*container about me common */ 
+.container{
+	display: flex;
+	justify-content: space-between;
+	padding: 5% 0px;
+}
+.container_item{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+	
+}
+/*about me text*/ 
+.container_summary{
+	display: inline-flex;
+	justify-content: flex-start;
+	border:1px solid red;
+	margin: 0;
+	font-family: Roboto;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: left;
+	padding-right:10px ;
+	
+}
+.summary_text{
+	margin: 0;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+/*buttons*/ 
+#button{
+	text-decoration: none;
+	color:white;
+	border-radius: 0px;
+	 background: #3A4576;
+	border: none;
+	padding: 7px 15px;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin-right:1% ;
+}
+.buttom{
+	display: inline;
+}
+
+/*developer skill */
+.second-section{
+	background: #FAFAFA;
+}
+
+.container_skills{
+	display: flex;
+	justify-content: space-between;
+}
+.container_item_skills{
+	display: flex;
+	justify-content: space-between;
+	padding:5% 0 ;
+}
+
+
+/* icon skill */
+.icon_navigation{
+	display: flex;
+	text-align: center;
+	margin: 0 auto;
+	width: 50px;
+	height: 50px;
+	padding-bottom:3% ;
+}
+
+.icon{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 20px;
+	height: 212px;
+	width: 185px;
+}
+.icon:first-child{
+	margin-left: 0;
+}
+
+.icon:last-child{
+	margin-right: 0;
+}
+
+
+
+
+
