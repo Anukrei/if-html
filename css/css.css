@@ -28,45 +28,17 @@
 	 font-family: Roboto;
 	 font-style: normal;
  }
-<<<<<<< HEAD
  a{
 	text-decoration: none;
 	color:white;
 	font-family: Roboto;
 	font-size: 20px;
-=======
- @font-face {
-	font-family: 'icomoon';
-	src:  url('../fonts/icomoon.eot?ebi342');
-	src:  url('../fonts/icomoon.eot?ebi342#iefix') format('embedded-opentype'),
-	  url('../fonts/icomoon.ttf?ebi342') format('truetype'),
-	  url('../fonts/icomoon.woff?ebi342') format('woff'),
-	  url('../fonts/icomoon.svg?ebi342#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-	font-display: block;
- }
-
- 
- [class^="icon-"], [class*=" icon-"] {
-	/* use !important to prevent issues with browser extensions that change fonts */
-	font-family: 'icomoon' !important;
-
->>>>>>> 1de1a3fb129d2e53fb3e0814f7ee5b6c6eb5e6f7
 	font-style: normal;
 	font-weight: 400;
  }
-<<<<<<< HEAD
  .wrapper, .container, footer{
 	padding: 2% 5%;
 	 margin: 0 auto;
-=======
- 
- 
- .icon-AccountCircle:before {
-	content: "\e900";
-	color: #fff;
->>>>>>> 1de1a3fb129d2e53fb3e0814f7ee5b6c6eb5e6f7
  }
  .wrapper{	 
 	background-image: url("../img/castelmezzano-1979546 1.png");
@@ -122,23 +94,9 @@ font-size: 24px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-<<<<<<< HEAD
 }
 h1{
 	font-size: 50px;
-=======
-	line-height: 5px;
-	}
-	/*navigation*/
-	.navigation{
-	display: flex;
-	align-items:center;
-	justify-content: flex-end;
-	}
-	.nav__link{
-	 font-family: Roboto;
-	font-size: 24px;
->>>>>>> 1de1a3fb129d2e53fb3e0814f7ee5b6c6eb5e6f7
 	font-style: normal;
 	font-weight: 500;
 	color:#fff;
@@ -387,190 +345,6 @@ h2{
 	footer{
 		padding: 3% 3%;
 	}
-<<<<<<< HEAD
-=======
-/*service block-start  */
-.parents-containers{
-	text-align: center;
-	height: 100vh;
-	width: 100%;
-	margin: auto;
-}
-.pro{
-	height: 47px;
-	width: 306px;
-	margin: 5em auto 2em;
-	text-align: center;
-}
-
-.container{
-	height: 550px;
-	text-align: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-}
-.box-support,.box-communication,.box-book,.box-reviews{
-	display: flex;
-	flex-direction:column;
-	justify-content: space-between;
-	
-}
-
-.text-container{
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-}
-.title-text{
-font-family: Roboto;
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-line-height: 47px;
-margin-top: 20%;
-
-}
-.pro{
-margin-bottom:5px ;
-}
-.scroll{
-padding-bottom: 45px;
-text-align: center;
-}
-
-.box-communication, .box-reviews{
-	margin: 0% 5px;
-}
-.text-container{
-	margin-bottom: 0;
-	height: 100%;
-}
-
-/*choice of places of rest-сontainer-start*/
-.container-info{
-margin: auto;
-background: #EAF0F9;
-display: flex;
-flex-direction:column;
-align-items: center;
-}
-.title-h1{
-display: block;
-text-align: center;
-font-family: Roboto;
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-line-height: 47px;
-margin-top:20%;
-
-}
-.content-box{
-height: 700px;
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-	
-}
-.info-images{
-	margin: 0px 7px;
-	
-}
-.text-info{
- font-family: Roboto;
- font-size: 24px;
- font-style: normal;
- font-weight: 400;
- line-height: 28px;
- color: #3077C6;
-}
-.text-infof{
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
-color: #BFBFBF;
-}
-.info-images{
-	height: 435px;
-	width: 296px;
-}
-
-/*destinations-start-- в процессе*/
-.destinations-container{
-height: 958px;
-width: 1440px;
-margin: auto;
-}
-
-.title-text{
-font-family: Roboto;
-font-size: 40px;
-font-style: normal;
-font-weight: 500;
-line-height: 47px;
-text-align: center;
-margin-top: 5%;
-}
-.box-regions{
-display: flex;
-align-items:center ;
-justify-content: center;
-}
-.regions-style{
-width: 192px;
-height: 64px;
-display: flex;
-align-items:center ;
-justify-content: center;
-background:#F3F3F4;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
-color: black;
-}
-.regions-style:hover{
-border-radius: 10px;
-background:#3077C6;
-color: #ffff;
-}
-.container-country{
-display: flex;
-align-items:center;
-justify-content: start;
-margin-left: 8%;
-}
-.box-regions{
-margin-top: 7%;
-}
-.box-city{
-display: flex;
-justify-content:center ;
-align-items:center;
-margin-top: 5%;
-}
-.box-images{
-margin-left: 10px;
-}
-
-.city-text{
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0em;
-text-align: left;
-color:#3077C6;
->>>>>>> 1de1a3fb129d2e53fb3e0814f7ee5b6c6eb5e6f7
 }
 @media( max-width:520px){
 	.text_services{
@@ -603,7 +377,6 @@ color:#3077C6;
 		padding: 5% 5%;
 	}
 }
-<<<<<<< HEAD
 @media( max-width:420px){
 	.container_body, footer{
 		padding: 40px 2%;
@@ -641,41 +414,8 @@ color:#3077C6;
 	}
 	.heading_list_information{
 		text-decoration: underline;
-=======
-
-/*footer-start--*/
-.podwall{ 
-
-background:#10367C;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: auto;
-flex-wrap:wrap;
-	}
-.container-footer{
-display: flex;
-align-items: flex-start;
-justify-content: space-between;
-width: 70%;
-max-height: 27%;
-margin-right: 15%;
-	
-	}
-	.list {
-color:#ffff;
-list-style: none;
-margin-top:0 ;
-padding-left:0 ;
-line-height: 45px;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-font-family: Roboto, sans-serif;
->>>>>>> 1de1a3fb129d2e53fb3e0814f7ee5b6c6eb5e6f7
 	}
 }
-<<<<<<< HEAD
 @media( max-width:360px){
 	.wrapper{
 		padding: 7px;
@@ -719,144 +459,7 @@ font-family: Roboto, sans-serif;
 	.footer_company_logo{
 		display: block;
 	}
-=======
-/*Common container */
-.container_body{
-background:url("../img/castelmezzano-1979546 1.png");
-height: 100vh;
-padding: 50px 10%;
-margin: auto;
-background-size: cover;	
-
-}
-.logo_vector_futer{
-	width:100px
-	
->>>>>>> 1de1a3fb129d2e53fb3e0814f7ee5b6c6eb5e6f7
 }
 
 
 
-<<<<<<< HEAD
-=======
-
-	.CircleSVG,.NightSVG{
-		fill: white;
-		width: 50px;
-		height: 50px;
-		
-		display: flex;
-		justify-content: center;
-		margin-top:35%;
-
-	}
-	.google, .AppleSVG{
-		width: 135px;
-		height: 40px;
-		margin-left: 10px;
-	}
-
-	.SVG1, .SVG2, .SVG3, .SVG4{
-		width: 40%;
-		height: 90%;
-		
-		fill: #3077C6;
-	}
-	.futerSVG{
-		fill:  #3077C6;
-		
-	}
-
-
-
-	@media (max-width:375px) {
-		
-		.container{
-			display: flex;
-			flex-direction: column;
-			justify-content: space-around;
-			min-height: 100%;
-			padding: 10% 0px;
-		}
-		.SVG1, .SVG2, .SVG3, .SVG4{
-			width: 30%;
-			height: 30%;
-			
-			fill: #3077C6;
-		}
-
-	}
-
-	@media (max-width: 375px){
-		.non{
-			display: none;
-		}
-		.container-footer{
-			margin: auto;
-			display: flex;
-			justify-content: space-between;
-			text-align: center;
-			min-height: 100%;
-			
-		}
-		.copy-string{
-			display: flex;
-			justify-content: center;
-			text-align: center;
-			margin: auto;
-			padding-bottom:5%;
-			font-family: Roboto;
-			font-size: 12px;
-			font-style: normal;
-			font-weight: 400;
-			line-height: 14px;
-			text-align: center;
-			padding-bottom: 10%;
-		 }
-		 .yes{
-			 color:white;
-			font-size: 15px;
-		 }
-		
-		 .futerSVG12{
-			 width: 60%;
-			height: 50%;
-			 fill:#ffff;
-			 margin-left: 15%;
-			 
-		 }
-		 .SVG1, .SVG2, .SVG3, .SVG4{
-			height: 64px;
-			width: 52px;
-			fill: #3077C6;
-		}
-
-		 }
-		@media(max-width: 375px){
-			.container_body,.title-h1, .scroll, .content-box, .destinations-container{
-				display: none;
-			}
-			
-			
-		}
-		@media(min-width: 376px){
-			.futerSVG12{
-				display: none;
-			}
-			.yes{
-				text-decoration: none;
-				font-family: Roboto;
-				font-size: 20px;
-				font-style: normal;
-				font-weight: 500;
-				line-height: 23px;
-				letter-spacing: 0em;
-				text-align: center;
-				color:#fff;	
-			}
-			.podwall{
-				height: 70vh;
-			}
-		}
-		
->>>>>>> 1de1a3fb129d2e53fb3e0814f7ee5b6c6eb5e6f7
