@@ -47,7 +47,7 @@ h3{
 	padding-top: 5%;
 }
 /*navigation bar styles header*/ 
-.navigation{
+nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -66,7 +66,7 @@ h3{
 	text-align: left;
 	color: #3D3B3C;
 }
-.navigation a:first-child{
+nav a:first-child{
 	font-family: Roboto;
 	font-size: 24px;
 	font-style: normal;
@@ -137,6 +137,7 @@ justify-content: space-between;
 /*developer skill */
 .second-section{
 	background: #FAFAFA;
+	width: 90%;
 }
 
 .container_skills{
