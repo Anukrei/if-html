@@ -379,7 +379,7 @@ h2{
 	}
 	.circle_icon, .night_icon{
 		display: block;
-		margin-left: 5px;
+		margin-left: 3px;
 	}
 	.footer_company_logo{
 		display: none;
@@ -473,6 +473,7 @@ h2{
 	.wrapper{
 		padding: 7px;
 	}
+	
 	.container_body{
 		padding: 20px;
 	}
