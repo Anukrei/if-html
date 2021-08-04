@@ -1,4 +1,4 @@
-/* roboto-regular - latin (text- word */
+
 @font-face {
 	font-family: 'Roboto';
 	font-style: normal;
@@ -24,7 +24,8 @@
 		  url('/fonts/roboto-v27-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
  }
 body{
-	padding: 0 107px;
+	margin: 0 auto;
+	overflow-x: hidden;
 	
 }
 /*used headers*/ 
@@ -76,6 +77,13 @@ nav a:first-child{
 	text-decoration:line-through;
 }
 /*container about me common */ 
+
+
+header,.first-section,.skills-section{
+	max-width: 1440px;
+	margin: 0 auto;
+	
+}
 .container{
 	display: flex;
 	justify-content: space-between;
@@ -134,20 +142,23 @@ justify-content: space-between;
 	display: inline;
 }
 
+
 /*developer skill */
-.second-section{
+.skills-section{
 	background: #FAFAFA;
-	width: 90%;
 }
 
 .container_skills{
 	display: flex;
 	justify-content: space-between;
+	
 }
 .container_item_skills{
 	display: flex;
-	justify-content: space-between;
-	padding:5% 0 ;
+	justify-content: space-around;
+	
+	
+	
 }
 
 
@@ -164,9 +175,7 @@ justify-content: space-between;
 .icon{
 	display: flex;
 	justify-content: space-between;
-	margin: 0 20px;
-	height: 212px;
-	width: 185px;
+	max-width: 200px;
 }
 .icon:first-child{
 	margin-left: 0;
@@ -176,7 +185,90 @@ justify-content: space-between;
 	margin-right: 0;
 }
 
+@media( max-width:768px) {
+	.navigation_item{
+		display: none;
+	}
+	
+
+	
+	.container_item_skills,.first-section{
+		margin: 0;
+		flex-wrap: wrap;
+		
+	}
+	
+	.container_item_skills{
+		display: flex;
+		justify-content: space-around;
+		margin: 0 auto;
+		
+	}
+	
+	 h2,h1,h3{
+		font-size: 30px;
+}
+h1{
+	margin: 0 auto;
+}
 
 
+.summary_text{
+font-size: 15px;
+}
+.dev{
+	width: 300px;
 
+}
+}
+@media( max-width:590px) {
+	.container{
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+	.skills-section{
+		text-align: center;
+		margin: 0 auto;
+	}
+	a{
+		display: inline-flex;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.icon{
+		width: 150px;
+	}
+	}
+	@media( max-width:420px) {
+		.summary_text{
+			font-size: 15px;
 
+		}
+	}
+	@media( max-width:1024px){
+		.container_item_skills,.first-section{
+			
+			flex-wrap: wrap;
+			
+		}
+			.icon{
+				max-width: 250px;
+				padding-top: 5%;
+				padding-bottom: 5%;
+			}
+			.summary_text{
+				font-size: 15px;
+	
+			}
+			.icon{
+				width: 250px;
+			}
+	}
+	@media( max-width:1240px){
+		
+		
+		h3{
+			font-size: 30px;
+			margin-bottom: 5%;
+		}
+	}
