@@ -162,10 +162,9 @@ h1{
 	font-weight: 500;
 }
 .section_icon{
-	max-width: 1223px;
 	display: flex;
 	justify-content: center;
-	margin:0 auto;
+	
 	margin: 18% 0 10%;
 }
 
@@ -516,6 +515,9 @@ h2{
 	}
 	.footer_company_logo{
 		display: block;
+	}
+	[src="LinkedSprite.svg#src-1"],[src="LinkedSprite.svg#src-5"]{
+		margin-left: 5px;
 	}
 	
 
