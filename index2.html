@@ -11,231 +11,96 @@
 </head>
 
 <body>
-	<!--//headedrr-->
-	<div class="container_body">
-		<header class="header">
-			<div class="header__inner">
-				<svg class="futerSVG">
-					<use xlink:href="sprite.svg#futer"></use>
-				</svg>
-			</div>
-			<nav class="navigation">
-				<a href="#" class="nav__link">Stays</a>
-				<a href="#" class="nav__link"> Attractions </a>
-				<a href="#" class="nav__link"> <svg class="NightSVG">
-						<use xlink:href="sprite.svg#Night-svg"></use>
-					</svg></a>
-				<a href="#" class="nav__link"> <svg class="CircleSVG">
-						<use xlink:href="sprite.svg#Circle-svg"></use>
-					</svg></a>
+	<!--The main wrapper of the first page of the project-->
+	<div class="wrapper">
+		<!--navigation and company logo-->
+		<header class="header_logo_navigation">
+			<img class="header_company logo" src="LinkedSprite.svg#src-2" alt="Company `s logo">
+			<!--header navigation-->
+			<nav class="header_navigation">
+				<a href="#" class="header_link link_stays">Stays</a>
+				<a href="#" class="header_link link_attractions">Attractions</a>
+				<a href="#" class="header_link night_icon">
+					<img class="header_icon night_icon" src="LinkedSprite.svg#src-3">
+				</a>
+				<a href="#" class="header_link circle_icon ">
+					<img class="header_icon circle_icon " src="LinkedSprite.svg#src-4">
+				</a>
+				<!--burger menu-->
+				<a class="header_burger"><span></span></a>
 			</nav>
 		</header>
-
-		<!--//input form -->
-		<form action="#" metod="get">
-			<!--//Common form container  -->
-			<div class="container_content">
-				<!--//Big text container   -->
-				<div class="container_content_h2">
-					Discover stays <br>
-					to live, work or just relax
-				</div>
-				<!--//Information entry help container-->
-				<div class="help_input">
-					<span>Your destination or hotel name</span>
-					<span>Check-in — Check-out</span>
-				</div>
-				<!--//Information input field for the required search -->
-				<div class="content_string_search">
-					<input type="text" class="search_terms" id="search_terms_1" placeholder="New York">
-					<div class="common_container">
-						<input type="date" class="search_terms">
-						<div class="search_terms">2 Adults — 0 Children — 1 Room</div>
-						<input type="submit" class="buttom" value="Search">
-					</div>
-				</div>
-				<!--//google and apple icons-->
-				<div class="icon_footer">
-					<a href="#"><svg class="google">
-							<use xlink:href="sprite.svg#google-svg"></use>
-						</svg> </a>
-					<a href="#"><svg class="AppleSVG">
-							<use xlink:href="sprite.svg#Apple-Store-svg"></use>
-						</svg> </a>
-				</div>
+		<section class="section_search">
+			<h1>Discover stays
+				<br>
+				to live, work or just relax</h1>
+			<div class="section_label">
+				<label for="input_hotel" class="label">Your destination or hotel name</label>
+				<label for="input_date" class="label">Check-in — Check-out</label>
 			</div>
-		</form>
+			<form action="#" method="POST" class="form_input">
+				<input class="input-text" type="text" id="input_hotel" placeholder="New York">
+				<input class="input-data" type="date" id="input_date">
+				<input class="input_check" type="text" placeholder="2 Adults — 0 Children — 1 Room">
+				<input class="submit" type="submit" value="Search">
+			</form>
+			<div class="section_icon">
+				<a href="#"><img class="google-store-icon" src="LinkedSprite.svg#src-1"></a>
+				<a href="#"><img class="apple-icon" src="LinkedSprite.svg#src-5"></a>
+			</div>
+		</section>
 	</div>
-	<!--//service block-start-->
-	<div class="parents-containers">
-		<div class="pro">
-			<h1 class="title-text">
-				What do we offer
-			</h1>
-		</div>
-		<div class="scroll">
-			<img src="img/Stroke.png" alt="scroll content">
-		</div>
-		<div class="container">
-			<div class="box-support">
-				<div class="img-support">
-					<img src="img/Vector1.svg" alt="support">
-				</div>
-				<p class="text-container">
-					Support 24/7
-				</p>
+	<section class="container_body">
+		<h2>What do we offer</h2>
+		<div class="container_services">
+			<div class="container_item_services">
+				<a href="#"><img class="item_services" src="LinkedSprite2.svg#src-1">
+				</a>
+				<p class="text_services">Support 24/7</p>
 			</div>
-			<div class="box-communication">
-				<div class="img-communication">
-					<img src="img/Vector2.svg" alt="communication">
-				</div>
-				<p class="text-container">
-					Communicate directly
-				</p>
+			<div class="container_item_services">
+				<a href="#"><img class="item_services" src="LinkedSprite2.svg#src-2">
+				</a>
+				<p class="text_services">Communicate directly </p>
 			</div>
-			<div class="box-book">
-				<div class="img-book">
-					<img src="img/Vector3.svg" alt="book-online">
-
-				</div>
-				<p class="text-container"></p>
-				Book online
+			<div class="container_item_services">
+				<a href="#"><img class="item_services" src="LinkedSprite2.svg#src-3">
+				</a>
+				<p class="text_services">Book online</p>
 			</div>
-			<div class="box-reviews">
-				<div class="img-reviews">
-					<img src="img/Vector4.svg" alt="Real-guest-reviews">
-				</div>
-				<p class="text-container">
-					Real guest reviews
-				</p>
+			<div class="container_item_services">
+				<a href="#"><img class="item_services" src="LinkedSprite2.svg#src-4">
+				</a>
+				<p class="text_services">Real guest reviews</p>
 			</div>
 		</div>
-	</div>
-	<!--//choice of places of rest-сontainer-->
-	<div class="container-info">
-		<div class="h1">
-			<h1 class="title-h1">Homes guests loves</h1>
+	</section>
+	<footer class="">
+		<img class="footer_company_logo" width="100" height="30" src="LinkedSprite.svg#src-7" alt="Company `s logo">
+		<div class="container_list">
+			<ul class="list_link about">
+				<li><a class="heading_list_information" href="#">About</a></li>
+				<li><a class="link_information" href="#">How Triphouse works</a></li>
+				<li><a class="link_information" href="#">Careers</a></li>
+				<li><a class="link_information" href="#">Privacy</a></li>
+				<li><a class="link_information" href="#">Terms</a></li>
+			</ul>
+			<ul class="list_link property">
+				<li><a class="heading_list_information" href="#">Property types</a></li>
+				<li><a class="link_information" href="#">Guest houses</a></li>
+				<li><a class="link_information" href="#">Hotels</a></li>
+				<li><a class="link_information" href="#">Apartments</a></li>
+				<li><a class="link_information" href="#">Villas</a></li>
+			</ul>
+			<ul class="list_link support">
+				<li><a class="heading_list_information" href="#">Support</a></li>
+				<li><a class="link_information" href="#">Contact Customer Service</a></li>
+				<li><a class="link_information" href="#">FAQ</a></li>
+			</ul>
 		</div>
-		<div class="content-box">
-			<div class="info-images">
-				<div class="images">
-					<div class="img">
-						<img src="img/Rectangle 48.png" alt="Hotel Leopold">
-					</div>
-					<div class="hotel-images">
-						<p class="text-info">Hotel Leopold</p>
-						<p class="text-infof">Saint Petersburg, Russia</p>
-					</div>
-				</div>
-			</div>
-			<div class="info-images">
-				<div class="images">
-					<div class="img">
-						<img src="img/Rectangle 49.png" alt="Apartment Sunshine">
-					</div>
-					<div class="hotel-images">
-						<p class="text-info">Apartment Sunshine</p>
-						<p class="text-infof">Santa Cruz de Tenerife, Spain</p>
-					</div>
-				</div>
-			</div>
-			<div class="info-images">
-				<div class="images">
-					<div class="img">
-						<img src="img/Rectangle 50.png" alt="Vysokie Tatry, Slowakia">
-					</div>
-					<div class="hotel-images">
-						<p class="text-info">Villa Kunerad</p>
-						<p class="text-infof">Vysokie Tatry, Slowakia</p>
-					</div>
-				</div>
-			</div>
-			<div class="info-images">
-				<div class="images">
-					<div class="img">
-						<img src="img/Rectangle 51.png" alt="Saint Petersburg, Russia">
-					</div>
-					<div class="hotel-images">
-						<p class="text-info">Hotel Leopold</p>
-						<p class="text-infof">Saint Petersburg, Russia</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--//cdestinations-start-->
-	<div class="destinations-container">
-		<h1 class="title-text">The best destinations</h1>
-
-		<div class="container-country">
-
-			<div class="box-regions">
-				<div class="regions-style" value="Regions">Regions</div>
-				<div class="regions-style">Cities</div>
-				<div class="regions-style">Places of interest</div>
-			</div>
-		</div>
-		<div class="box-city">
-			<div class="box-images">
-				<div class="img-box">
-					<img src="img/Maldives.png" alt="Maldives">
-					<p class="city-text">Maldives</p>
-				</div>
-			</div>
-			<div class="box-images">
-				<div class="img-box">
-					<img src="img/Maldives.png" alt="Maldives">
-					<p class="city-text">Spain</p>
-				</div>
-			</div>
-			<div class="box-images">
-				<div class="img-box">
-					<img src="img/Norway.png" alt="Norway">
-					<p class="city-text">Norway</p>
-				</div>
-			</div>
-			<div class="box-images">
-				<div class="img-box">
-					<img src="img/Island.png" alt="Island">
-					<p class="city-text">Island</p>
-				</div>
-			</div>
-		</div>
-		<div class="class-navigation">
-			<img src="img/Ellipse 30.png" alt="Polygon">
-		</div>
-	</div>
-	<!--//footer-->
-	<footer>
-		<div class="podwall">
-			<div class="container-footer">
-				<ul class="list">
-					<li>About</li>
-					<li>How Triphouse works</li>
-					<li>Careers</li>
-					<li>Privacy</li>
-					<li>Terms</li>
-
-				</ul>
-				<ul class="list">
-					<li>Property types</li>
-					<li>Guest houses</li>
-					<li>Hotels</li>
-					<li>Apartments</li>
-					<li>Villas</li>
-					<li>Holiday homes</li>
-					<li>Hostels</li>
-				</ul>
-				<ul class="list">
-					<li>Support</li>
-					<li>Contact Customer Service</li>
-					<li>FAQ</li>
-				</ul>
-			</div>
-			<p class="copy-string">&#169 2020 Triphouse, Inc. All rights reserved</p>
+		<div class="container_copy_string"><span class="copy_string">&#169 2020 Triphouse, Inc. All rights reserved</span>
 		</div>
 	</footer>
-
 
 </body>
 
