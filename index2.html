@@ -15,21 +15,22 @@
 	<div class="wrapper">
 		<!--navigation and company logo-->
 		<header class="header_logo_navigation">
-			<img class="header_company logo" src="LinkedSprite.svg#src-2" alt="Company `s logo">
+			<img class="header_company logo_trip_house" src="LinkedSprite.svg#src-2" alt="Company `s logo">
 			<!--header navigation-->
 			<nav class="header_navigation">
 				<a href="#" class="header_link link_stays">Stays</a>
 				<a href="#" class="header_link link_attractions">Attractions</a>
 				<a href="#" class="header_link night_icon">
-					<img class="header_icon night_icon" src="LinkedSprite.svg#src-3">
+					<img class="header_icon night_icon" src="LinkedSprite.svg#src-3" alt="Night icon">
 				</a>
-				<a href="#" class="header_link circle_icon ">
-					<img class="header_icon circle_icon " src="LinkedSprite.svg#src-4">
+				<a href="#" class="header_link profile_icon ">
+					<img class="header_icon profile_icon " src="LinkedSprite.svg#src-4">
 				</a>
 				<!--burger menu-->
 				<a class="header_burger"><span></span></a>
 			</nav>
 		</header>
+
 		<section class="section_search">
 			<h1>Discover stays
 				<br>
@@ -44,14 +45,20 @@
 				<input class="input_check" type="text" placeholder="2 Adults — 0 Children — 1 Room">
 				<input class="submit" type="submit" value="Search">
 			</form>
-			<div class="section_icon">
-				<a href="#"><img class="google-store-icon" src="LinkedSprite.svg#src-1"></a>
-				<a href="#"><img class="apple-icon" src="LinkedSprite.svg#src-5"></a>
+			<div class="section_icon google apple ">
+				<div class="google-store-icon">
+					<a href="#"><img class="google-store-icon" src="LinkedSprite.svg#src-1"></a>
+				</div>
+				<div class="apple-icon">
+					<a href="#"><img class="apple-icon" src="LinkedSprite.svg#src-5"></a>
+				</div>
 			</div>
 		</section>
 	</div>
+
+	<!--Сontainer_service trip_house -->
 	<section class="container_body">
-		<h2>What do we offer</h2>
+		<h2 class="title_offer">What do we offer</h2>
 		<div class="container_services">
 			<div class="container_item_services">
 				<a href="#"><img class="item_services" src="LinkedSprite2.svg#src-1">
@@ -75,7 +82,204 @@
 			</div>
 		</div>
 	</section>
-	<footer class="">
+	<!--Сontainer_service homes_guests -->
+	<section class="container_homes_guests">
+		<h2 class="title_homes_guests">Homes guests loves</h2>
+		<div class="container_apartments">
+			<div class="item_apartaments">
+				<div class="img_apartaments">
+					<img src="img/Rectangsdle 48.png" class="img_hotel_leopold" alt="Hotel Leopold">
+				</div>
+				<p class="name_apartaments">Hotel Leopold</p>
+				<p class="location_apartaments">Saint Petersburg, Russia</p>
+			</div>
+			<div class="item_apartaments">
+				<div class="img_apartaments">
+					<img src="img/Rectangsle 49.png" class="img_apartment_sunshine" alt="Apartment Sunshine">
+					<div class="navigation_element item_navigation">
+						<img src="img/arrow.svg" class="nav" alt="Navigation element">
+					</div>
+				</div>
+				<p class="name_apartaments">Apartment Sunshine</p>
+				<p class="location_apartaments">Santa Cruz de Tenerife,<br> Spain</p>
+			</div>
+			<div class="item_apartaments apartaments_first">
+				<div class="img_apartaments">
+					<img src="img/Rectaeengle 50.png" class="img_villa_kunerad " alt="Villa Kunerad">
+				</div>
+				<p class="name_apartaments">Villa Kunerad</p>
+				<p class="location_apartaments">Vysokie Tatry, Slowakia</p>
+			</div>
+			<div class="item_apartaments apartaments_second">
+				<div class="img_apartaments">
+					<img src="img/Recstangle 51.png" class="img_hostel_friendship" alt="Hostel Friendship">
+					<div class="navigation_element">
+						<img src="img/arrow.svg" alt="Navigation element">
+					</div>
+				</div>
+				<p class="name_apartaments">Hostel Friendship</p>
+				<p class="location_apartaments">Berlin, Germany</p>
+			</div>
+		</div>
+	</section>
+	<!--Сontainer_service best_destinations-->
+	<section class="best_destinations">
+		<h2 class="title_destinations">The best destinations</h2>
+		<form class="container_buttoms">
+			<button type="button" value="Regions" class="button_nav">Regions</button>
+			<button type="button" value="Cities" class="button_nav cities_button">Cities</button>
+			<button type="button" value="" class="button_nav interest_button">Places of interest</button>
+		</form>
+		<div class="container_apartments">
+			<div class="item_apartaments">
+				<div class="img_apartaments">
+					<img src="img/Rectangle 48.png" class="img_maldives" alt="Maldives">
+					<button class="book_now">Book now</button>
+				</div>
+				<p class="name_apartaments country">Maldives</p>
+			</div>
+			<div class="item_apartaments">
+				<div class="img_apartaments">
+					<img src="img/Rectangle 49.png" class="img_spain" alt="Spain">
+					<div class=" navigation_element item_navigation">
+						<img src="img/arrow.svg" class="nav" alt="Item navigation">
+					</div>
+				</div>
+				<p class="name_apartaments country">Spain</p>
+			</div>
+			<div class="item_apartaments apartaments_first">
+				<div class="img_apartaments">
+					<img src="img/Rectangle 50.png" class="img_norway" alt="Norway">
+				</div>
+				<p class="name_apartaments country">Norway</p>
+			</div>
+			<div class="item_apartaments apartaments_second">
+				<div class="img_apartaments">
+					<img src="img/Rectangle 51.png" class="img_island" alt="Island">
+				</div>
+				<p class="name_apartaments country">Island</p>
+			</div>
+			<div class="item_nav">
+				<img src="img/arrow.svg" class="nav" alt="Item navigation">
+			</div>
+		</div>
+		<footer class="container_registration">
+			<img src="img/user.svg" class="user_avatar" alt="user">
+			<div class="container_button_discount">
+				<p class="discount_registration">Sign up and get 20% off your first booking</p>
+				<button class="button_registration">Sign up</button>
+			</div>
+		</footer>
+	</section>
+	<!--Сontainer_service guests_reviews-->
+	<section class="guests_reviews">
+		<h2 class="title_guests">Guests reviews</h2>
+		<h2 class="title_guestss small_display"> Reviews</h2>
+		<div class="container_opinions">
+			<div class="container_guests">
+				<div class="img_room price_room">
+					<img src="img/image.png" alt="Ubud Bali Resort&SPA" class="img_hotel">
+					<p class="price_text">From 250 USD</p>
+				</div>
+				<div class="reviews_container">
+					<div class="name_location">
+						<div class="">
+							<p class="name_hostel">Ubud Bali Resort&SPA</p>
+							<p class="country_hostel">Bali, Indonesia</p>
+						</div>
+						<div class="review_score">
+							<img src="img/score.svg" class="score_profile" alt="Score Profile">
+							<p class="number_reviews">1324 reviews</p>
+						</div>
+					</div>
+					<div class="user_reviews">
+						<img src="img/AccountCircle 1.svg" alt="Account Profile">
+						<div class="user">
+							<spam class="user_name">Hanna Ivanova</spam>
+							<img src="img/🇺🇦 Ukraine.svg" name="user_country" alt="Ukraine">
+						</div>
+					</div>
+					<p class="reviews">Great location, really pleasant and clean rooms, but the thing that makes this such
+						a
+						good place to stay are the staff. All of the people are incredibly helpful and generous with their
+						time
+						and advice. </p>
+				</div>
+				<div class="navigation">
+					<img src="img/navigation.svg" class="navigation" alt="">
+				</div>
+
+			</div>
+			<div class="container_guests second_guests">
+				<div class="img_room price_room">
+					<img src="img/imassge.png" alt="King Kong Hostel" class="img_hotel">
+					<p class="price_text">From 40 USD</p>
+				</div>
+				<div class="reviews_container">
+					<div class="name_location">
+						<div class="">
+							<p class="name_hostel">King Kong Hostel</p>
+							<p class="country_hostel">Rotterdam, Netherlands</p>
+						</div>
+						<div class="review_score">
+							<img src="img/arrows.svg" class="score_profile" alt="">
+							<p class="number_reviews">2016 reviews</p>
+						</div>
+					</div>
+					<div class="user_reviews">
+						<img src="img/AccountCircle 1.svg" alt="Account Profile">
+						<div class="user">
+							<spam class="user_name">Adam Smith</spam>
+							<img src="img/🇺🇸 USA.svg" name="user_country" alt="USA">
+						</div>
+					</div>
+					<p class="reviews">I've been in this hostel for a month and here is the best hostel of all
+						Excellent management of excellent and ethical staff and bedrooms Bathrooms are always clean and
+						excellent
+						Most importantly, those who work here are kind and good-natured. </p>
+				</div>
+			</div>
+
+			<div class="container_guests there_guests">
+				<div class="img_room price_room">
+					<img src="img/imssscage.png" alt="Ubud Bali Resort&SPA" class="img_hotel">
+					<p class="price_text">From 100 USD</p>
+				</div>
+				<div class="reviews_container">
+					<div class="name_location">
+						<div class="">
+							<p class="name_hostel">Rokoko Hotel</p>
+							<p class="country_hostel">Ourika, Marocco</p>
+						</div>
+						<div class="review_score">
+							<img src="img/scoreaa.svg" class="score_profile" alt="Score profile">
+							<p class="number_reviews">815 reviews</p>
+						</div>
+					</div>
+					<div class="user_reviews">
+						<img src="img/AccountCircle 1.svg" alt="Account Profile">
+						<div class="user">
+							<spam class="user_name">Anika Messer</spam>
+							<img src="img/🇩🇪 Germany.svg" name="user_country" alt="Germany">
+						</div>
+					</div>
+					<p class="reviews">Efficient, friendly, professional, and appropriately attentive. Great hotel in a great
+						location. Easy access to all the surrounding historical sites. Staff is fantastic. Will definitely
+						stay at this location during my next stay in Marocco. </p>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	<!--Сontainer_service mobile_versions-->
+	<section class="mobile_version">
+		<img src="img/close 1.svg" class="close" alt="">
+		<img src="img/lossgo.svg" class="mobile_triphouse" alt="Triphouse">
+		<p class="text_booking"> Sign up in the app and get 20% off your first booking</p>
+		<p class="install_app">Install</p>
+
+	</section>
+	<footer>
 		<img class="footer_company_logo" width="100" height="30" src="LinkedSprite.svg#src-7" alt="Company `s logo">
 		<div class="container_list">
 			<ul class="list_link about">
@@ -101,8 +305,6 @@
 		<div class="container_copy_string"><span class="copy_string">&#169 2020 Triphouse, Inc. All rights reserved</span>
 		</div>
 	</footer>
-
 </body>
-
 
 </html>
